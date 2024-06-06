@@ -28,7 +28,7 @@ public class SimpleAsyncTask extends AsyncTask<Void, Void, String> {
         }
 
         // Retourne un résultat String
-        return "Enfin réveillé après avoir dormi pendant " + s + " millisecondes !";
+        return " Réveillé après " + s + " millisecondes !";
     }
 
     @Override
